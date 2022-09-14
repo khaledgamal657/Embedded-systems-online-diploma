@@ -1,0 +1,8 @@
+16:28:34 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+16:28:34 Build Failed. 1 errors, 0 warnings. (took 228ms)
+

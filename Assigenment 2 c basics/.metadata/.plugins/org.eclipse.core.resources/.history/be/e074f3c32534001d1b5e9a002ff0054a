@@ -1,0 +1,29 @@
+/*
+ * ll.c
+ *
+ *  Created on: Sep 14, 2022
+ *      Author: khale
+ */
+
+#include "stdio.h"
+void main(){
+	int alphabet;
+	printf("enter a charater");
+	fflush(stdout);fflush(stdin);
+	scanf("%c",alphabet);
+	switch (alphabet){
+	case 'a':
+	{
+		printf("alphabet is vowel");
+	}
+	break;
+	case 'e':
+	{
+		printf("alphabet is vowel");
+	}
+	break;
+	default:
+		printf("alphabet is constant");
+		break;
+	}
+}

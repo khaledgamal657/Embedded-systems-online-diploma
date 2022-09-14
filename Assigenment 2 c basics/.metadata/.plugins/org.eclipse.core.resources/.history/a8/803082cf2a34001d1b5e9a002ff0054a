@@ -1,0 +1,23 @@
+/*
+ * hh.c
+ *
+ *  Created on: Sep 14, 2022
+ *      Author: khale
+ */
+#include"stdio.h"
+void main(){
+	float a,b,c;
+	printf("Enter 3 numbers");
+	fflush(stdout); fflush(stdin);
+	scanf("%f %f %f",&a,&b,&c);
+	if (a>b&&a>c){
+
+	}
+	else if(b>a&&b>c){
+		printf("b is the largest number");
+	}
+	else if(c>a&&c>b){
+		printf("c is the largest number");
+	}
+}
+

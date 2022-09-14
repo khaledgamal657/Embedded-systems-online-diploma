@@ -1,0 +1,18 @@
+/*
+ * kk.c
+ *
+ *  Created on: Sep 14, 2022
+ *      Author: khale
+ */
+
+#include "stdio.h"
+void main(){
+	int i;
+	int sum=0;
+	printf("Enter an intege");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&i);
+	for(i=0,i<100,i++){
+		sum=sum+i;
+	}
+}

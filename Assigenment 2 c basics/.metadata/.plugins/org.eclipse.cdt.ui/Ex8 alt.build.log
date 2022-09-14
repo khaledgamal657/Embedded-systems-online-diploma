@@ -1,0 +1,10 @@
+16:23:45 **** Incremental Build of configuration Debug for project Ex8 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o f.o "..\\f.c" 
+..\f.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex8 alt.exe" f.o 
+
+16:23:45 Build Finished. 0 errors, 1 warnings. (took 516ms)
+

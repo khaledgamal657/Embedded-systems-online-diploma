@@ -1,0 +1,1367 @@
+19:29:55 **** Rebuild of configuration Debug for project amo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main..o "..\\main..c" 
+..\main..c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o amo.exe main..o 
+Info: Nothing to build for amo
+13:28:40 **** Rebuild of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:8: error: lvalue required as left operand of assignment
+  if(a%2=0)
+        ^
+Info: Nothing to build for amo
+13:28:51 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex1 Assigenment 2.exe" main.o 
+Info: Nothing to build for amo
+Info: Nothing to build for Ex1 Assigenment 2
+Info: Nothing to build for Ex1 Assigenment 2
+13:39:34 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:10: error: expected expression before ')' token
+  (a%2==0?)?printf("%d is even",a):printf("%d is odd",a);
+          ^
+Info: Nothing to build for amo
+13:39:37 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:10: error: expected expression before ')' token
+  (a%2==0?)?printf("%d is even",a):printf("%d is odd",a);
+          ^
+13:39:51 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:10: error: expected expression before ')' token
+  (a%2==0?)?printf("%d is even",a):printf("%d is odd",a);
+          ^
+13:40:38 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:10: error: expected expression before ')' token
+  (a%2==0?)?printf("%d is even",a):printf("%d is odd",a);
+          ^
+Info: Nothing to build for amo
+13:40:43 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:11: error: expected expression before ')' token
+  ((a%2==0?)?printf("%d is even",a):printf("%d is odd",a));
+           ^
+Info: Nothing to build for amo
+13:40:44 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:11: error: expected expression before ')' token
+  ((a%2==0?)?printf("%d is even",a):printf("%d is odd",a));
+           ^
+13:41:43 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:11: error: expected expression before ')' token
+  ((a%2==0?)?printf("%d is even",a):printf("%d is odd",a));
+           ^
+..\main.c:15:8: warning: 'return' with a value, in function returning void
+ return 0;
+        ^
+..\main.c:9:6: note: declared here
+ void main(){
+      ^~~~
+Info: Nothing to build for amo
+13:42:51 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:8: warning: 'return' with a value, in function returning void
+ return 0;
+        ^
+..\main.c:9:6: note: declared here
+ void main(){
+      ^~~~
+gcc -o "Ex1 Assigenment 2.exe" main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+13:42:55 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -o "Ex1 Assigenment 2.exe" main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:43:07 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex1 Assigenment 2.exe" main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+13:43:09 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -o "Ex1 Assigenment 2.exe" main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:44:02 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o gg.o "..\\gg.c" 
+..\gg.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex1 Assigenment 2.exe" gg.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+13:44:10 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -o "Ex1 Assigenment 2.exe" gg.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:44:17 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -o "Ex1 Assigenment 2.exe" gg.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:45:24 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -o "Ex1 Assigenment 2.exe" gg.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+13:45:24 **** Rebuild of configuration Debug for project ex1 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "ex1 alt.exe" kk.o 
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for ex1 alt
+13:45:53 **** Incremental Build of configuration Debug for project Ex1 Assigenment 2 ****
+Info: Internal Builder is used for build
+gcc -o "Ex1 Assigenment 2.exe" gg.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex1 Assigenment 2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+13:45:53 **** Incremental Build of configuration Debug for project ex1 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "ex1 alt.exe" kk.o 
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for ex1 alt
+13:57:50 **** Rebuild of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:9: error: expected ':' or '...' before ';' token
+  case'a';{
+         ^
+..\ll.c:19:9: error: expected ':' or '...' before '{' token
+  case'e'{
+         ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+13:58:24 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:9: error: expected ':' or '...' before ';' token
+  case'a';
+         ^
+..\ll.c:20:9: error: expected ':' or '...' before ';' token
+  case'e';
+         ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+13:59:00 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:16:2: error: expected ':' or '...' before '{' token
+  {
+  ^
+..\ll.c:21:2: error: expected ':' or '...' before '{' token
+  {
+  ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+13:59:18 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:9: error: expected ':' or '...' before ';' token
+  case'a';
+         ^
+..\ll.c:20:9: error: expected ':' or '...' before ';' token
+  case'e';
+         ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+14:01:25 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:10: error: expected ':' or '...' before ';' token
+  case 'a';
+          ^
+..\ll.c:20:10: error: expected ':' or '...' before ';' token
+  case 'e';
+          ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+14:01:37 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:13:2: warning: 'alphabet' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",alphabet);
+  ^~~~~~~~~~~~~~~~~~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:05:07 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:13:2: warning: 'alphabet' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",alphabet);
+  ^~~~~~~~~~~~~~~~~~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:06:43 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:13:2: warning: 'alphabet' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",alphabet);
+  ^~~~~~~~~~~~~~~~~~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:07:13 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:2: error: case label does not reduce to an integer constant
+  case "a":
+  ^~~~
+..\ll.c:20:2: error: case label does not reduce to an integer constant
+  case "e":
+  ^~~~
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+14:07:15 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:2: error: case label does not reduce to an integer constant
+  case "a":
+  ^~~~
+..\ll.c:20:2: error: case label does not reduce to an integer constant
+  case "e":
+  ^~~~
+14:08:32 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:7: error: 'a' undeclared (first use in this function)
+  case a:
+       ^
+..\ll.c:15:7: note: each undeclared identifier is reported only once for each function it appears in
+..\ll.c:20:7: error: 'e' undeclared (first use in this function)
+  case e:
+       ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+14:08:35 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:15:7: error: 'a' undeclared (first use in this function)
+  case a:
+       ^
+..\ll.c:15:7: note: each undeclared identifier is reported only once for each function it appears in
+..\ll.c:20:7: error: 'e' undeclared (first use in this function)
+  case e:
+       ^
+14:09:20 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:10:16: error: 'a' undeclared (first use in this function)
+  char alphabet=a;
+                ^
+..\ll.c:10:16: note: each undeclared identifier is reported only once for each function it appears in
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+14:09:42 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+14:11:55 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:13:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",alphabet);
+          ^
+..\ll.c:13:2: warning: 'alphabet' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",alphabet);
+  ^~~~~~~~~~~~~~~~~~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:12:23 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:13:03 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:14:45 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:15:32 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:15:49 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:17:08 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:19:57 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ll.c: In function 'main':
+..\ll.c:35:2: error: expected ';' before 'case'
+  case'u':
+  ^~~~
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+14:21:53 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:33:11 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:47:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:34:23 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:47:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:35:09 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:47:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:35:35 **** Incremental Build of configuration Debug for project Ex2 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ll.o "..\\ll.c" 
+..\ll.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex2 alt.exe" ll.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex2 alt
+14:41:59 **** Rebuild of configuration Debug for project Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hh.o "..\\hh.c" 
+..\hh.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex3.exe hh.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+14:43:20 **** Incremental Build of configuration Debug for project Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hh.o "..\\hh.c" 
+..\hh.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\hh.c: In function 'main':
+..\hh.c:14:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",a);
+            ^
+..\hh.c:17:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",b);
+            ^
+..\hh.c:20:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",c);
+            ^
+gcc -o Ex3.exe hh.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex2 alt
+14:43:50 **** Incremental Build of configuration Debug for project Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hh.o "..\\hh.c" 
+..\hh.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\hh.c: In function 'main':
+..\hh.c:14:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",a);
+            ^
+..\hh.c:17:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",b);
+            ^
+..\hh.c:20:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",c);
+            ^
+gcc -o Ex3.exe hh.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex2 alt
+14:44:31 **** Incremental Build of configuration Debug for project Ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hh.o "..\\hh.c" 
+..\hh.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex3.exe hh.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+14:57:54 **** Rebuild of configuration Debug for project Ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\ff.c: In function 'main':
+..\ff.c:13:36: error: expected ';' before '}' token
+  if(a>0){printf("%d is positive",a)}
+                                    ^
+..\ff.c:15:1: error: expected ';' before '}' token
+ }
+ ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+14:58:32 **** Incremental Build of configuration Debug for project Ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex4.exe ff.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+15:00:32 **** Incremental Build of configuration Debug for project Ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex4.exe ff.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+15:04:30 **** Incremental Build of configuration Debug for project Ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex4.exe ff.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+15:21:00 **** Rebuild of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:11: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  if(a>='a'&&a<='z'||a>='A'&&a<='Z'){
+     ~~~~~~^~~~~~~~
+gcc -o Ex5.exe main.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+15:22:14 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:27: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  if(a>='a'||a<='z'||a>='A'&&a<='Z'){
+                     ~~~~~~^~~~~~~~
+gcc -o Ex5.exe main.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex5
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+15:23:05 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:11: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  if(a>='a'&&a<='z'||a>='A'&&a<='Z'){
+     ~~~~~~^~~~~~~~
+gcc -o Ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+15:23:06 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -o Ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+15:23:16 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -o Ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+15:23:17 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -o Ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:23:24 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -o Ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:23:49 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -o Ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:23:59 **** Incremental Build of configuration Debug for project Ex5 ****
+Info: Internal Builder is used for build
+gcc -o Ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+15:24:54 **** Rebuild of configuration Debug for project Ex5 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\kk.c: In function 'main':
+..\kk.c:13:11: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  if(a>='a'&&a<='z'||a>='A'&&a<='Z'){
+     ~~~~~~^~~~~~~~
+gcc -o "Ex5 alt.exe" kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+15:25:23 **** Incremental Build of configuration Debug for project Ex5 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\kk.c: In function 'main':
+..\kk.c:13:27: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  if(a>='a'||a<='z'||a>='A'&&a<='Z'){
+                     ~~~~~~^~~~~~~~
+gcc -o "Ex5 alt.exe" kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+15:26:55 **** Incremental Build of configuration Debug for project Ex5 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\kk.c: In function 'main':
+..\kk.c:13:11: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  if(a>='a'&&a<='z'||a>='A'&&a<='Z'){
+     ~~~~~~^~~~~~~~
+gcc -o "Ex5 alt.exe" kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:39:20 **** Rebuild of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\kk.c: In function 'main':
+..\kk.c:15:9: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+  for(i=0,i<100,i++){
+         ^
+..\kk.c:15:19: error: expected ';' before ')' token
+  for(i=0,i<100,i++){
+                   ^
+..\kk.c:15:19: error: expected expression before ')' token
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:40:10 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:40:58 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:43:43 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:44:07 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:45:07 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:45:46 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:46:10 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:47:31 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:47:42 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:49:44 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+15:50:08 **** Incremental Build of configuration Debug for project Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o kk.o "..\\kk.c" 
+..\kk.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex6.exe kk.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+15:55:06 **** Rebuild of configuration Debug for project Ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o gg.o "..\\gg.c" 
+..\gg.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex7.exe gg.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex7
+Info: Nothing to build for Ex7
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+15:58:07 **** Incremental Build of configuration Debug for project Ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o gg.o "..\\gg.c" 
+..\gg.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex7.exe gg.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex7
+Info: Nothing to build for Ex7
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:13:54 **** Rebuild of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex8.exe ff.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex8
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:15:06 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex8.exe ff.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex8
+Info: Nothing to build for Ex8
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:16:30 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:16:32 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:17:08 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:17:11 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:17:45 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:17:49 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:18:19 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:18:21 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:18:30 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:21:38 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:23:01 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:23:02 **** Rebuild of configuration Debug for project Ex8 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o f.o "..\\f.c" 
+..\f.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\f.c: In function 'main':
+..\f.c:39:2: error: expected declaration or statement at end of input
+  }
+  ^
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:23:44 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:23:45 **** Incremental Build of configuration Debug for project Ex8 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o f.o "..\\f.c" 
+..\f.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "Ex8 alt.exe" f.o 
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:23:51 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:24:01 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:26:02 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:26:04 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:27:51 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ff.o "..\\ff.c" 
+..\ff.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:27:53 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:28:10 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+16:28:26 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:28:34 **** Incremental Build of configuration Debug for project Ex8 ****
+Info: Internal Builder is used for build
+gcc -o Ex8.exe ff.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2 alt
+Info: Nothing to build for Ex3
+Info: Nothing to build for Ex4
+Info: Nothing to build for Ex5 alt
+Info: Nothing to build for Ex6
+Info: Nothing to build for Ex7
+Info: Nothing to build for amo
+Info: Nothing to build for ex1 alt
+16:30:42 **** Rebuild of configuration Debug for project last example ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o rr.o "..\\rr.c" 
+..\rr.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o "last example.exe" rr.o 
+Info: Nothing to build for last example
+Info: Nothing to build for last example
+Info: Nothing to build for last example
+Info: Nothing to build for last example
+Info: Nothing to build for last example
+Info: Nothing to build for last example
+Info: Nothing to build for last example
