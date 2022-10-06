@@ -1,0 +1,20 @@
+18:55:20 **** Rebuild of configuration Debug for project Ex3 alt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ex3 alt.o" "..\\src\\Ex3 alt.c" 
+..\src\Ex3 alt.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\src\Ex3 alt.c: In function 'main':
+..\src\Ex3 alt.c:20:2: warning: writing into constant object (argument 2) [-Wformat=]
+  scanf("%d","%d",&rows,&columns);
+  ^~~~~
+..\src\Ex3 alt.c:20:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d","%d",&rows,&columns);
+          ^
+..\src\Ex3 alt.c:20:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%d","%d",&rows,&columns);
+        ^~~~
+gcc -o "Ex3 alt.exe" "src\\Ex3 alt.o" 
+
+18:55:21 Build Finished. 0 errors, 4 warnings. (took 453ms)
+

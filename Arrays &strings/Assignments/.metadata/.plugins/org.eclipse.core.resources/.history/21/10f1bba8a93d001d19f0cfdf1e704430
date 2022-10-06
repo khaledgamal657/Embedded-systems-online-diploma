@@ -1,0 +1,32 @@
+/*
+ * ff.c
+ *
+ *  Created on: Sep 26, 2022
+ *      Author: khale
+ */
+#include "stdio.h"
+#include "string.h"
+
+int main(){
+	char text[100];
+	char temp;
+	int i=0;
+	int j=0;
+
+	printf("Enter the string:\t");
+	fflush(stdout); fflush(stdin);
+	gets (text);
+
+	j=strlen(text)-1;
+
+	while(i<j){
+		temp=text[i];
+		text[i]=text[j];
+		text[j]=temp;
+
+		i++;
+		j--;
+	}
+	printf("Reverse of string is :%s",text);
+}
+
