@@ -1,0 +1,23 @@
+/*
+ * sf.c
+ *
+ *  Created on: Oct 10, 2022
+ *      Author: khale
+ */
+
+
+int main(){
+
+
+	reverse();
+	return 0;
+}
+void reverse (){
+	char c;
+	printf("enter a reversed sentence");
+	scanf("%c",&c);
+	if(c!='\n'){
+		reverse();
+		printf("%c",c);
+	}
+}

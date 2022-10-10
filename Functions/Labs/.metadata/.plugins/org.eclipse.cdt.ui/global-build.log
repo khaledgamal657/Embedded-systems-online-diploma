@@ -1,0 +1,169 @@
+14:00:37 **** Rebuild of configuration Debug for project Ex 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o d.o "..\\d.c" 
+..\d.c: In function 'fact':
+..\d.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Ex 1.exe" d.o 
+Info: Nothing to build for Ex 1
+14:01:46 **** Incremental Build of configuration Debug for project Ex 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o d.o "..\\d.c" 
+gcc -o "Ex 1.exe" d.o 
+Info: Nothing to build for Ex 1
+Info: Nothing to build for Ex 1
+14:11:49 **** Rebuild of configuration Debug for project Ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o s.o "..\\s.c" 
+gcc -o Ex2.exe s.o 
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex 1
+15:20:55 **** Rebuild of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o g.o "..\\g.c" 
+gcc -o Ex1.exe g.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex 1
+15:29:05 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o g.o "..\\g.c" 
+..\g.c:10:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'prime'
+ int check prime (int num);
+           ^~~~~
+..\g.c: In function 'main':
+..\g.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+          ^
+..\g.c:16:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+            ^
+..\g.c:18:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  for(i=n1;i=n2;i++){
+  ^~~
+..\g.c:19:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'prime'
+   int check prime(i);
+             ^~~~~
+..\g.c:19:13: warning: implicit declaration of function 'prime' [-Wimplicit-function-declaration]
+..\g.c: At top level:
+..\g.c:25:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'prime'
+ int check prime(int num){
+           ^~~~~
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex 1
+15:29:40 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o g.o "..\\g.c" 
+..\g.c: In function 'main':
+..\g.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+          ^
+..\g.c:16:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+            ^
+..\g.c:18:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  for(i=n1;i=n2;i++){
+  ^~~
+..\g.c:19:3: warning: parameter names (without types) in function declaration
+   int checkprime(i);
+   ^~~
+..\g.c: In function 'checkprime':
+..\g.c:31:3: error: expected ';' before 'return'
+   return flag;
+   ^~~~~~
+..\g.c:26:6: warning: variable 'flag' set but not used [-Wunused-but-set-variable]
+  int flag=0;
+      ^~~~
+..\g.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex 1
+15:37:49 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o g.o "..\\g.c" 
+..\g.c: In function 'main':
+..\g.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+          ^
+..\g.c:16:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+            ^
+..\g.c:18:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  for(i=n1;i=n2;i++){
+  ^~~
+..\g.c:19:3: warning: parameter names (without types) in function declaration
+   int checkprime(i);
+   ^~~
+..\g.c: In function 'checkprime':
+..\g.c:29:2: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+  else
+  ^~~~
+..\g.c:31:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
+   return flag;
+   ^~~~~~
+..\g.c: In function 'main':
+..\g.c:16:2: warning: 'n1' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d%d",n1,n2);
+  ^~~~~~~~~~~~~~~~~~~
+..\g.c:16:2: warning: 'n2' is used uninitialized in this function [-Wuninitialized]
+..\g.c:20:6: warning: 'flag' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (flag==1)
+      ^
+gcc -o Ex1.exe g.o 
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex 1
+15:39:19 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o g.o "..\\g.c" 
+..\g.c: In function 'main':
+..\g.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+          ^
+..\g.c:16:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+            ^
+..\g.c:18:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  for(i=n1;i=n2;i++){
+  ^~~
+..\g.c:19:3: warning: parameter names (without types) in function declaration
+   int check_prime(i);
+   ^~~
+..\g.c:16:2: warning: 'n1' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d%d",n1,n2);
+  ^~~~~~~~~~~~~~~~~~~
+..\g.c:16:2: warning: 'n2' is used uninitialized in this function [-Wuninitialized]
+..\g.c:20:6: warning: 'flag' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (flag==1)
+      ^
+gcc -o Ex1.exe g.o 
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex 1
+Info: Nothing to build for Ex1
+Info: Nothing to build for Ex2
+Info: Nothing to build for Ex 1
+15:40:32 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o g.o "..\\g.c" 
+..\g.c: In function 'main':
+..\g.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+          ^
+..\g.c:16:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d%d",n1,n2);
+            ^
+..\g.c:18:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  for(i=n1;i=n2;i++){
+  ^~~
+..\g.c:16:2: warning: 'n1' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d%d",n1,n2);
+  ^~~~~~~~~~~~~~~~~~~
+..\g.c:16:2: warning: 'n2' is used uninitialized in this function [-Wuninitialized]
+..\g.c:20:6: warning: 'flag' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (flag==1)
+      ^
+gcc -o Ex1.exe g.o 
+Info: Nothing to build for Ex2

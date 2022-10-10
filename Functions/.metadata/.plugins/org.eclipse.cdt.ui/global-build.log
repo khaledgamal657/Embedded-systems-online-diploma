@@ -1,0 +1,42 @@
+20:02:40 **** Rebuild of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o jj.o "..\\jj.c" 
+..\jj.c: In function 'prime':
+..\jj.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Ex1.exe jj.o 
+20:04:39 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o jj.o "..\\jj.c" 
+..\jj.c: In function 'main':
+..\jj.c:20:8: error: expected expression before 'int'
+  prime(int x);
+        ^~~
+..\jj.c: In function 'prime':
+..\jj.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+20:05:11 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o jj.o "..\\jj.c" 
+..\jj.c: In function 'prime':
+..\jj.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Ex1.exe jj.o 
+20:05:31 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o jj.o "..\\jj.c" 
+gcc -o Ex1.exe jj.o 
+Info: Nothing to build for Ex1
+20:07:26 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o jj.o "..\\jj.c" 
+gcc -o Ex1.exe jj.o 
+Info: Nothing to build for Ex1
+20:40:34 **** Incremental Build of configuration Debug for project Ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o jj.o "..\\jj.c" 
+gcc -o Ex1.exe jj.o 
+Info: Nothing to build for Ex1

@@ -1,0 +1,32 @@
+/*
+ * ee.c
+ *
+ *  Created on: Oct 10, 2022
+ *      Author: khale
+ */
+
+#include "stdio.h"
+int fac(int k);
+
+int main(){
+	int f;
+	int k;
+
+	printf("Enter a positive number ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&k);
+	f=fac(k);
+
+	printf("factorial of %d is %d",k,f);
+
+}
+int fac (int k){
+	int i;
+	int f=1;
+
+	for(i=k;i>0;i--){
+		f=f*k;
+		return f;
+	}
+
+}
